@@ -1,0 +1,73 @@
+.google-maps {
+  position: relative;
+  padding-bottom: 25%; 
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.header{
+ background-image: url("locks.png") ;
+ background-color: #DA70D6;
+ background-repeat: no-repeat;
+ height: 100px; /* You must set a specified height */
+ background-position: left; /* Center the image */
+ background-size: 30% 100%; /* Resize the background image to cover the entire container */
+ position: relative;
+}
+
+.header-text{
+  position: absolute;
+  left:50%;
+  color: white;
+}
+
+.fb{
+  color: #3b5998;
+}
+.insta{
+  color: white;
+  border-radius: 20%;
+  padding:1.3px;
+  background: radial-gradient(circle at 33% 100%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  /*  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf) */
+}
+
+.success{
+  color:#4BB543;
+}
+.flip-in-hor-bottom {
+	-webkit-animation: flip-in-hor-bottom 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: flip-in-hor-bottom 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes flip-in-hor-bottom {
+  0% {
+    -webkit-transform: rotateX(80deg);
+            transform: rotateX(80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    opacity: 1;
+  }
+}
+@keyframes flip-in-hor-bottom {
+  0% {
+    -webkit-transform: rotateX(80deg);
+            transform: rotateX(80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    opacity: 1;
+  }
+}
