@@ -26,9 +26,9 @@ const About = ({onRouteChange})=>{
 						<h3 className='mv0 mh2 ph3 pb0 fw6 mb0 slide-in-right dark-blue f3-l f4'>WHO WE ARE</h3>
 						<p className='ma2 ph3  f4-l f5 tj slide-in-left'>True Locks and Security Services has been providing locksmith services in the Brampton, Mississauga, Milton, Oakville, Toronto, Richmond Hill, Scarborough, Vaughan, GTA (Greater Toronto Area)in the GTA for over a half a decade. Our aim is to provide fast, reliable and quality locksmith services 24 hours - 7 days a week!</p>
 						<div className='mv1 pa2'>
-							 <ButtonToolbar className='flex flex-column items-center justify-center'>
-						    	<Button variant="primary" className='button ma1' onClick={()=>onRouteChange('Contact')}>Contact Us</Button>
-						    	<Button variant="info" className='button ma1' onClick={()=>onRouteChange('Services')}>See Our Services</Button>
+							 <ButtonToolbar className='flex justify-center'>
+						    	<Button variant="primary" className='button ma2 ' onClick={()=>onRouteChange('Contact')}>Contact Us</Button>
+						    	<Button variant="info" className='button ma2' onClick={()=>onRouteChange('Services')}>See Our Services</Button>
 							</ButtonToolbar>
 						</div>
 					</div>
