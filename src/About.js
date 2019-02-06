@@ -1,6 +1,8 @@
 import React from 'react';
 import Card from './Card.jpg';
-import { ButtonToolbar, Carousel, Button } from 'react-bootstrap';
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
+import Button from 'react-bootstrap/Button'
+import Carousel from 'react-bootstrap/Carousel'
 import B2 from './brands/Levis.png';
 import B4 from './brands/playstation.png';
 import B5 from './brands/samsung.png';
@@ -27,23 +29,22 @@ const About = ({onRouteChange})=>{
 						<p className='ma2 ph3  f4-l f5 tj slide-in-left'>True Locks and Security Services has been providing locksmith services in the Brampton, Mississauga, Milton, Oakville, Toronto, Richmond Hill, Scarborough, Vaughan, GTA (Greater Toronto Area)in the GTA for over a half a decade. Our aim is to provide fast, reliable and quality locksmith services 24 hours - 7 days a week!</p>
 						<div className='mv1 pa2'>
 							 <ButtonToolbar className='flex justify-center'>
-						    	<Button variant="primary" className='button ma2 ' onClick={()=>onRouteChange('Contact')}>Contact Us</Button>
-						    	<Button variant="info" className='button ma2' onClick={()=>onRouteChange('Services')}>See Our Services</Button>
+						    	<Button variant="primary" size="sm" className='mh2' onClick={()=>onRouteChange('Contact')}>Contact Us</Button>
+						    	<Button variant="info" size="sm" className='mh2' onClick={()=>onRouteChange('Services')}>See Our Services</Button>
 							</ButtonToolbar>
 						</div>
 					</div>
 				</article>
-				<div className='w-90 mv3 mh0 pl3 tl-l tl-m tc mh2'>
+				<div className='w-90 mv3 pl3 tl-l tl-m tc mh2'>
 					<h3 className='fw6 ph3 mh0 mv3 slide-in-left dark-blue f3-l f4'>COMMITMENT</h3>
 					<p className='mh2 mb0 pv3 ph1 f4-l f5 tl slide-in-right'>We are committed to providing our customers with a fantastic experience from start to finish. If you come to us or if we come to you, you can
 						be assured that you are dealing with a licensed security professional who will do their best to make sure your family is safe and secure.
 					</p>
 					<p className='pt1 pv1 ph1 mv1 mh2 tl f4-l f5'>We want True Locks and Security to be first name you think of when it comes to all of your security needs.</p>
 				</div>
-			</section>
-			<section className='w-90 mt3 mb4 h-auto mh2'>
-				<h3 className='tl-l tl-m tc fw6 items-start ph3 mh0 mv4 slide-in-left dark-blue f3-l f4'>Our Clients</h3>
-				<Carousel indicators={false} className='carousel-control.left carousel-control.right' >
+				<section className='w-90 mt3 mb4 h-auto mh0'>
+				<h3 className='tl-l tl-m tc fw6 items-start ph3 mh2 mv4 slide-in-left dark-blue f3-l f4'>Our Clients</h3>
+				<Carousel indicators={false}>
 					<Carousel.Item>
 						<section className='flex justify-center'>
 							<section className='carouselSection'>
@@ -111,6 +112,7 @@ const About = ({onRouteChange})=>{
 						</section>    
 					</Carousel.Item>
 				</Carousel>
+			</section>
 			</section>
 		</article>
 		);
