@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/TrueLocks/precache-manifest.b1a0b5d6f37b09a478bd56827e001957.js"
+  "/TrueLocks/precache-manifest.8a1db0eb81b0fd4a8707cd08644abb39.js"
 );
 
 workbox.clientsClaim();
