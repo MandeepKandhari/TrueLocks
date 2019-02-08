@@ -74,7 +74,7 @@ onInputMessageChange=(event)=>this.setState(Object.assign(this.state.input,{mess
 		        			<legend className=" mt3 f3-l f4-m f5 fw6 w-100 tc center">Message Form</legend>
 			        		<div className="mv3-l mv2-m mv1">
 			        			<label  htmlFor='name' className='db fw6 flex items-start f5 w-100'><span className='pl2'>Name</span></label>
-								<input className='pa3-l pa2-m pa1 ba b--black bg-transparent w-100' 
+								<input className='pa3-l pa2 ba b--black bg-transparent w-100' 
 								type='text' 
 								placeholder='Enter your Name..' 
 								name='name' 
@@ -84,7 +84,7 @@ onInputMessageChange=(event)=>this.setState(Object.assign(this.state.input,{mess
 			          		
 			          		<div className="mv3-l mv2-m mv1">
 			          			<label htmlFor='phone' className='db fw6 flex items-start f5 w-100'><span className='pl2'>Phone</span></label>
-								<input className='pa3-l pa2-m pa1 ba b--black bg-transparent w-100' 
+								<input className='pa3-l pa2 ba b--black bg-transparent w-100' 
 								type="tel" 
 								placeholder='Enter your Phone number..' 
 								name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" 
@@ -95,7 +95,7 @@ onInputMessageChange=(event)=>this.setState(Object.assign(this.state.input,{mess
 							<div className="mv3-l mv2-m mv1">
 								<label htmlFor='message' className='db fw6 flex items-start f5 w-100'><span className='pl2'>Message</span></label>
 								<textarea 
-								className='pa3-l pa2-m pa1 ba b--black bg-transparent w-100' 
+								className='pa3-l pa2 ba b--black bg-transparent w-100' 
 								placeholder='Enter your message..' 
 								name='message'
 								onChange={this.onInputMessageChange} ></textarea>	
