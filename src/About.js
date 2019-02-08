@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card.jpg';
+import companyTruck from './companyTruck.png';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
 import Button from 'react-bootstrap/Button'
 import Carousel from 'react-bootstrap/Carousel'
@@ -11,18 +11,13 @@ import './About.css';
 const About = ({onRouteChange})=>{
 	return(
 		<article className='flex flex-column items-center'>
-			<section className='homeBackground flex flex-column items-center '>
-				<div className='ba w-80 pv2 mv3 flex flex-wrap items-center justify-center mv7'>
-					<h3 className='w-90 homeText f3 '>Welcome to True Locks & Security Services</h3>
-				</div>
-			</section>
-			<div className='mt4 w-100 subheader mb3-l mb2-m mb1 flex justify-center flex-column items-center'>
+			<div className='w-100 subheader mb3-l mb2-m mb1 flex justify-center flex-column items-center'>
 				<h1 className='fw6 f3-l f4 pv5-l pv3-m pv2'>ABOUT US</h1>
 			</div>
 			<section className='w-90 mt5-l mt3-m mt2 mb3 w-80 flex flex-column justify-center items-center'>
 				<article className='w-90 mv2 flex flex-wrap justify-around ph0'>
 					<div className='w-40-l w-90 mv2 bounce-in-top'>
-						<img className='card br4 b--gray center shadow-5 grow pointer' src={Card} alt='business-card' width={500} height={300} />
+						<img className='card b--transparent center grow pointer' src={companyTruck} alt='business-card' width={500} height={300} />
 					</div>
 					<div className='w-50-l w-90 flex flex-column items-center ma2 '>
 						<h3 className='mv0 mh2 ph3 pb0 fw6 mb0 slide-in-right dark-blue f3-l f4'>WHO WE ARE</h3>
@@ -44,7 +39,7 @@ const About = ({onRouteChange})=>{
 				</div>
 				<section className='w-90 mt3 mb4 h-auto mh0'>
 				<h3 className='tl-l tl-m tc fw6 items-start ph3 mh2 mv4 slide-in-left dark-blue f3-l f4'>Our Clients</h3>
-				<Carousel indicators={false}>
+				<Carousel indicators={false} className='threeSectionCarousel'>
 					<Carousel.Item>
 						<section className='flex justify-center'>
 							<section className='carouselSection'>
@@ -112,10 +107,30 @@ const About = ({onRouteChange})=>{
 						</section>    
 					</Carousel.Item>
 				</Carousel>
+				<Carousel indicators={false} className='oneSectionCarousel'>
+				  <Carousel.Item>
+				    <img className='carouselImage' alt="900x500" src={B4} />
+				    <div className='carouselCaption'>
+					    <p className=''>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					</div>
+				  </Carousel.Item>
+				  <Carousel.Item>
+				    <img className='carouselImage' alt="900x500" src={B2} />
+				    <div className='carouselCaption'>
+					    <p className=''>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					</div>
+				  </Carousel.Item>
+				  <Carousel.Item>
+				    <img className='carouselImage' alt="900x500" src={B5} />
+				    <div className='carouselCaption'>
+					    <p className=''>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					</div>
+				  </Carousel.Item>
+				</Carousel>
 			</section>
-			</section>
-		</article>
-		);
+		</section>
+	</article>
+	);
 }
 
 export default About;

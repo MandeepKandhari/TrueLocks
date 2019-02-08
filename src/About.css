@@ -1,18 +1,19 @@
-.homeBackground{
-  background-image: url('./Homebackground.jpg');
-  height:51rem;
-  width:100%; 
-  background-repeat: no-repeat;
-  background-size: 100% 51rem;
+.oneSectionCarousel{
+  display: none;
 }
+
+@media(max-width: 667px){
+  .threeSectionCarousel{
+    display: none;
+  }
+  .oneSectionCarousel{
+    display: block;
+  }
+}
+
+
 .subheader{
   background: linear-gradient(to right,#00c4cc,#7d2ae8);
-  /*background-image: url('./subheader.png');
-  height:18rem;
-  width:100%; 
-  background-repeat: no-repeat;
-  background-size: cover;
-  */
   color: white;
 }
 .homeText{
@@ -20,7 +21,6 @@
   font-size: 4rem;
   font-weight: 600;
 }
-
 .carouselImage{
   width: 80%;
   height: 15rem;
@@ -43,6 +43,7 @@
 .carouselCaption{
   width: 80%;
   padding: 0;
+  margin:auto;
   text-align: center;
   border:1px solid black;
 }
