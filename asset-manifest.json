@@ -1,7 +1,7 @@
 {
   "main.css": "/TrueLocks/static/css/main.10976bfe.chunk.css",
-  "main.js": "/TrueLocks/static/js/main.00698fe6.chunk.js",
-  "main.js.map": "/TrueLocks/static/js/main.00698fe6.chunk.js.map",
+  "main.js": "/TrueLocks/static/js/main.3541e268.chunk.js",
+  "main.js.map": "/TrueLocks/static/js/main.3541e268.chunk.js.map",
   "static/css/1.54f55570.chunk.css": "/TrueLocks/static/css/1.54f55570.chunk.css",
   "static/js/1.12dc5cc7.chunk.js": "/TrueLocks/static/js/1.12dc5cc7.chunk.js",
   "static/js/1.12dc5cc7.chunk.js.map": "/TrueLocks/static/js/1.12dc5cc7.chunk.js.map",
@@ -10,10 +10,10 @@
   "static/media/playstation.png": "/TrueLocks/static/media/playstation.131e6ca6.png",
   "static/media/companyTruck.png": "/TrueLocks/static/media/companyTruck.cfa46153.png",
   "static/media/Contact.css": "/TrueLocks/static/media/locks.2d7047ee.png",
-  "static/media/Logo.png": "/TrueLocks/static/media/Logo.783b68a3.png",
+  "static/media/Logo.png": "/TrueLocks/static/media/Logo.27cb40a1.png",
   "static/css/main.10976bfe.chunk.css.map": "/TrueLocks/static/css/main.10976bfe.chunk.css.map",
   "static/css/1.54f55570.chunk.css.map": "/TrueLocks/static/css/1.54f55570.chunk.css.map",
   "index.html": "/TrueLocks/index.html",
-  "precache-manifest.0588e7d9bff3561c81b39b5ee333e09f.js": "/TrueLocks/precache-manifest.0588e7d9bff3561c81b39b5ee333e09f.js",
+  "precache-manifest.b87890ef3a6b93eacb046802954eb98d.js": "/TrueLocks/precache-manifest.b87890ef3a6b93eacb046802954eb98d.js",
   "service-worker.js": "/TrueLocks/service-worker.js"
 }
