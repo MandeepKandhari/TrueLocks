@@ -12,7 +12,7 @@ const About = ({onRouteChange})=>{
 	return(
 		<article className='flex flex-column items-center'>
 			<div className='w-100 subheader mb3-l mb2-m mb1 flex justify-center flex-column items-center'>
-				<h1 className='fw6 f3-l f4 pv5-l pv3-m pv2'>ABOUT US</h1>
+				<h1 className='fw6 f3-l f4 pv4-l pv3-m pv2'>ABOUT US</h1>
 			</div>
 			<section className='w-90 mt5-l mt3-m mt2 mb3 w-80 flex flex-column justify-center items-center'>
 				<article className='w-90 mv2 flex flex-wrap justify-around ph0'>
@@ -21,7 +21,7 @@ const About = ({onRouteChange})=>{
 					</div>
 					<div className='w-50-l w-90 flex flex-column items-center ma2 '>
 						<h3 className='mv0 mh2 ph3 pb0 fw6 mb0 slide-in-right dark-blue f3-l f4'>WHO WE ARE</h3>
-						<p className='ma2 ph3  f4-l f5 tj slide-in-left'>True Locks and Security Services has been providing locksmith services in the Brampton, Mississauga, Milton, Oakville, Toronto, Richmond Hill, Scarborough, Vaughan, GTA (Greater Toronto Area)in the GTA for over a half a decade. Our aim is to provide fast, reliable and quality locksmith services 24 hours - 7 days a week!</p>
+						<p className='ma2 ph3 f4-l f5 tj slide-in-left'>True Locks and Security Services has been providing locksmith services in the Brampton, Mississauga, Milton, Oakville, Toronto, Richmond Hill, Scarborough, Vaughan, GTA (Greater Toronto Area)in the GTA for over a half a decade. Our aim is to provide fast, reliable and quality locksmith services 24 hours - 7 days a week!</p>
 						<div className='mv1 pa2'>
 							 <ButtonToolbar className='flex justify-center'>
 						    	<Button variant="primary" size="sm" className='mh2' onClick={()=>onRouteChange('Contact')}>Contact Us</Button>

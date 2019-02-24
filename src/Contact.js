@@ -40,11 +40,11 @@ onInputMessageChange=(event)=>this.setState(Object.assign(this.state.input,{mess
 		return(
 		<section>
 			<div className='w-100 mb4-l mb3-m mb2 flex flex-column justify-center items-center subheader'>
-				<h1 className='tc fw6 f3-l f4 pv5-l pv3-m pv2'>Contact us</h1>
+				<h1 className='tc fw6 f3-l f4 pv4-l pv3-m pv2'>Contact us</h1>
 			</div>
 			<div className='flex flex-wrap justify-around'> 
 				<div className='w-90 ba shadow-5 br4 mv3 w-60-l w-60-m w-80 flex flex-column items-center justify-center slide-in-left'>
-					<h2 className='w-90 mh2 mb2-l mb1-m mb0 ph3 pv4 f3-l f4-m f6 fw6'>Contact us to get a quote or for emergency situations we are here to serve you 24x7!</h2>
+					<h2 className='w-90 mh2 mb2-l mb1-m mb0 ph3 pv4 f3 f6 fw6'>Contact us to get a quote or for emergency situations we are here to serve you 24x7!</h2>
 					<section className='w-90 ph3 pv2-l pv1-m pv0 mv2-l mv1 flex-l flex-wrap justify-center items-center'>
 						<div className='w-50-l w-80 bw1 center'>
 							<h3 className='mb4-l mb3-m mb0 mt1 pv2 ph2 dark-blue fw6 f3-l f3-m f4 tc-l tl'>Phone</h3>

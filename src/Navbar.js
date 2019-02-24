@@ -5,7 +5,7 @@ import './Navbar.css';
 
 const Navbar =({onRouteChange})=>{
 	return(
-		<nav className='flex flex-wrap justify-center bb bw2 pv4-l pb0 nav bg-white  border-box'>
+		<nav className='flex flex-wrap justify-center bb bw2 pv3-l pb0 nav bg-white  border-box'>
 			<div className= 'w-40-l w-40-m w-80 pv0 slide-in-blurred-left mt0 mb0-l mb2 mh3-l mh1 pointer'>
 				<img src={Logo} alt='logo' width={300} height={80} onClick={()=>onRouteChange('About')}/>
 			</div>
