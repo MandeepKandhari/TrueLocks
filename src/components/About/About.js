@@ -4,9 +4,9 @@ import companyTruck from './companyTruck.png';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
 import Button from 'react-bootstrap/Button'
 import Carousel from 'react-bootstrap/Carousel'
-import B2 from './brands/Levis.png';
-import B4 from './brands/playstation.png';
-import B5 from './brands/samsung.png';
+import B2 from '../brands/Levis.png';
+import B4 from '../brands/playstation.png';
+import B5 from '../brands/samsung.png';
 import './About.css';
 
 
