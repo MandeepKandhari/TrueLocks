@@ -41,7 +41,7 @@ onInputMessageChange=(event)=>this.setState(Object.assign(this.state.input,{mess
 		return(
 		<section>
 			<div className='w-100 mb4-l mb3-m mb2 flex flex-column justify-center items-center subheader'>
-				<h1 className='tc fw6 f3-l f4 pv4-l pv3-m pv2'>Contact us</h1>
+				<h1 className='tc fw6 f3-l f4 pv4-l pv3-m pv2'>CONTACT US</h1>
 			</div>
 			<div className='flex flex-wrap justify-around'> 
 				<Fade left big>
