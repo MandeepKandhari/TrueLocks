@@ -19,7 +19,7 @@ class About extends Component{
 
 onButtonSubmit=(message)=>{
 	console.log('message',message)
-	fetch('https://truelocks.appspot.com/message',{
+	fetch('https://truelocks-232806.appspot.com/message',{
 		method:'post',
 		headers:{'Content-Type':'application/json'},
 		body:JSON.stringify({
