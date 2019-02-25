@@ -4,10 +4,6 @@ self.__precacheManifest = [
     "url": "/TrueLocks/static/media/playstation.131e6ca6.png"
   },
   {
-    "revision": "2d7047eed9a757e62da1067bb57d1f34",
-    "url": "/TrueLocks/static/media/locks.2d7047ee.png"
-  },
-  {
     "revision": "cfa46153679e9f0050e560dcca43c838",
     "url": "/TrueLocks/static/media/companyTruck.cfa46153.png"
   },
@@ -20,23 +16,23 @@ self.__precacheManifest = [
     "url": "/TrueLocks/static/js/runtime~main.cf933262.js"
   },
   {
-    "revision": "3541e2689bcb8ae21363",
-    "url": "/TrueLocks/static/js/main.3541e268.chunk.js"
+    "revision": "59414714ffab1e3e4578",
+    "url": "/TrueLocks/static/js/main.59414714.chunk.js"
   },
   {
-    "revision": "12dc5cc77ae661b2e971",
-    "url": "/TrueLocks/static/js/1.12dc5cc7.chunk.js"
+    "revision": "efdb7d1a67294ac7e436",
+    "url": "/TrueLocks/static/js/1.efdb7d1a.chunk.js"
   },
   {
-    "revision": "3541e2689bcb8ae21363",
-    "url": "/TrueLocks/static/css/main.10976bfe.chunk.css"
+    "revision": "59414714ffab1e3e4578",
+    "url": "/TrueLocks/static/css/main.8938a877.chunk.css"
   },
   {
-    "revision": "12dc5cc77ae661b2e971",
-    "url": "/TrueLocks/static/css/1.54f55570.chunk.css"
+    "revision": "efdb7d1a67294ac7e436",
+    "url": "/TrueLocks/static/css/1.7e2a9860.chunk.css"
   },
   {
-    "revision": "1c6dc007f97eafedba50a1775221d42d",
+    "revision": "bf8336ad4bb1864b8de0af44029ec762",
     "url": "/TrueLocks/index.html"
   }
 ];
