@@ -13,14 +13,12 @@ const Footer = ()=>{
 		  			<a 
 		  				href='https://www.instagram.com/explore/locations/326901064568296/true-lock-and-security-services/' 
 		  				target='_blank'
-		  				rel='preconnect'
 		  				className='f5 dim mh2 pointer'>
 		  					<FontAwesomeIcon className='fa-lg' icon={['fab', 'instagram']} />
 		  			</a>
 		  			<a 
 		  			href='https://www.facebook.com/pages/True-Lock-And-Security-Services/326901064568296?epa=SEARCH_BOX' 
 		  			target='_blank' 
-		  			rel='preconnect'
 		  			className='f5 dim mh2 pointer'>
 		  				<FontAwesomeIcon className='fa-lg' icon={['fab', 'facebook-square']} />
 		  			</a>

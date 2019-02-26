@@ -19,8 +19,7 @@ class About extends Component{
 	}
 
 onButtonSubmit=(message)=>{
-	console.log('message',message)
-	fetch(`${url}/message`,{
+	fetch('https://truelocks-232806.appspot.com/message',{
 		method:'post',
 		headers:{'Content-Type':'application/json'},
 		body:JSON.stringify({
@@ -41,6 +40,8 @@ onInputMessageChange=(event)=>this.setState(Object.assign(this.state.input,{mess
 	render(){
 		return(
 		<section>
+			{
+	console.log('url',url)}
 			<div className='w-100 mb4-l mb3-m mb2 flex flex-column justify-center items-center subheader'>
 				<h1 className='tc fw6 f3-l f4 pv4-l pv3-m pv2'>CONTACT US</h1>
 			</div>
