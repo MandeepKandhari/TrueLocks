@@ -1,18 +1,18 @@
 {
   "main.css": "/TrueLocks/static/css/main.365b5b57.chunk.css",
-  "main.js": "/TrueLocks/static/js/main.d8de3d52.chunk.js",
-  "main.js.map": "/TrueLocks/static/js/main.d8de3d52.chunk.js.map",
+  "main.js": "/TrueLocks/static/js/main.a89b5ec0.chunk.js",
+  "main.js.map": "/TrueLocks/static/js/main.a89b5ec0.chunk.js.map",
   "static/css/1.89d85db0.chunk.css": "/TrueLocks/static/css/1.89d85db0.chunk.css",
   "static/js/1.32192fb8.chunk.js": "/TrueLocks/static/js/1.32192fb8.chunk.js",
   "static/js/1.32192fb8.chunk.js.map": "/TrueLocks/static/js/1.32192fb8.chunk.js.map",
   "runtime~main.js": "/TrueLocks/static/js/runtime~main.cf933262.js",
   "runtime~main.js.map": "/TrueLocks/static/js/runtime~main.cf933262.js.map",
-  "static/css/main.365b5b57.chunk.css.map": "/TrueLocks/static/css/main.365b5b57.chunk.css.map",
+  "static/css/1.89d85db0.chunk.css.map": "/TrueLocks/static/css/1.89d85db0.chunk.css.map",
   "static/media/playstation.png": "/TrueLocks/static/media/playstation.131e6ca6.png",
   "static/media/companyTruck.png": "/TrueLocks/static/media/companyTruck.cfa46153.png",
   "static/media/Logo.png": "/TrueLocks/static/media/Logo.27cb40a1.png",
-  "static/css/1.89d85db0.chunk.css.map": "/TrueLocks/static/css/1.89d85db0.chunk.css.map",
+  "static/css/main.365b5b57.chunk.css.map": "/TrueLocks/static/css/main.365b5b57.chunk.css.map",
   "index.html": "/TrueLocks/index.html",
-  "precache-manifest.b9377aba42c9d22413b3068d06c890f7.js": "/TrueLocks/precache-manifest.b9377aba42c9d22413b3068d06c890f7.js",
+  "precache-manifest.ed66dff2d0e4fec451aa2d76bc3bb275.js": "/TrueLocks/precache-manifest.ed66dff2d0e4fec451aa2d76bc3bb275.js",
   "service-worker.js": "/TrueLocks/service-worker.js"
 }
