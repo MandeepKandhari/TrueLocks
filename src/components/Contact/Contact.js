@@ -126,14 +126,6 @@ onInputMessageChange=(event)=>this.setState(Object.assign(this.state.input,{mess
 					</main>
 				</article>
 			</Fade>
-			<section className='w-90 mt4 bw1 flex justify-start'>
-			<Fade bottom big>
-				<h4 className='flex justify-center items-center mh2 ph2 f4-l f5'>Follow us on: 
-						<span className='f3 dim mh2 pointer'><FontAwesomeIcon className='fa-lg insta' icon={['fab', 'instagram']} /></span>
-						<span className='f3 dim mh2 pointer'><FontAwesomeIcon className='fa-lg fb' icon={['fab', 'facebook-square']} /></span>
-				</h4>
-			</Fade>	
-		</section>
 		</div>
 	</section>
 	);	
