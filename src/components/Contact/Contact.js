@@ -41,12 +41,11 @@ onInputMessageChange=(event)=>this.setState(Object.assign(this.state.input,{mess
 	render(){
 		return(
 		<section>
-			{console.log('url', url)}
 			<div className='w-100 mb4-l mb3-m mb2 flex flex-column justify-center items-center subheader'>
 				<h1 className='tc fw6 f3-l f4 pv4-l pv3-m pv2'>CONTACT US</h1>
 			</div>
 			<div className='flex flex-wrap justify-around'> 
-				<Fade left big>
+				<Fade left>
 					<div className='w-90 ba shadow-5 br4 mv3 w-60-l w-60-m w-80 flex flex-column items-center justify-center'>
 						<h2 className='w-90 mh2 mb2-l mb1-m mb0 ph3 pv4 f4-l f5-m f6 fw6'>Contact us to get a quote or for emergency situations we are here to serve you 24x7!</h2>
 						<section className='w-90 ph3 pv2-l pv1-m pv0 mv2-l mv1 flex-l flex-wrap justify-center items-center'>
@@ -71,7 +70,7 @@ onInputMessageChange=(event)=>this.setState(Object.assign(this.state.input,{mess
 						</section>
 					</div>
 				</Fade>
-			<Fade bottom big>
+			<Fade bottom>
 				<article className="br4 mv3 shadow-5 ba b--black dark-gray w-90 w-60-m w-30-l flex flex-column justify-center items-center">
 			      	<main className="pa2 black-80 w-80">
 			        	<div className="measure">

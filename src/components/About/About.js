@@ -37,10 +37,10 @@ const About = ({onRouteChange})=>{
 					</Fade>
 				</article>
 				<div className='w-90 mv3 pl3 tl-l tl-m tc mh2'>
-					<Fade left big>
+					<Fade left>
 						<h3 className='fw6 ph3 mh0 mv3 dark-blue f3-l f4'>COMMITMENT</h3>
 					</Fade>
-					<Fade right big>	
+					<Fade right>	
 						<p className='mh2 mb0 pv3 ph1 f4-l f5 tl'>We are committed to providing our customers with a fantastic experience from start to finish. If you come to us or if we come to you, you can
 							be assured that you are dealing with a licensed security professional who will do their best to make sure your family is safe and secure.
 						</p>
@@ -48,10 +48,10 @@ const About = ({onRouteChange})=>{
 					</Fade>
 				</div>
 				<section className='w-90 mt3 mb4 h-auto mh0'>
-				<Fade left big>
+				<Fade left>
 					<h3 className='tl-l tl-m tc fw6 items-start ph3 mh2 mv4 dark-blue f3-l f4'>Our Clients</h3>
 				</Fade>
-				<Fade right big>
+				<Fade right>
 					<Carousel indicators={false} className='threeSectionCarousel'>
 						<Carousel.Item>
 							<section className='flex justify-center'>
