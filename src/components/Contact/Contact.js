@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import './Contact.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 require('dotenv').config();
 
 const url = process.env.REACT_APP_BACKEND_URL
