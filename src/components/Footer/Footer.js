@@ -10,8 +10,18 @@ const Footer = ()=>{
 		  	</small>
 		  	<div className="tc">
 		  		<p className='flex justify-center items-center'>Follow us on: 
-		  			<span className='f5 dim mh2 pointer'><FontAwesomeIcon className='fa-lg' icon={['fab', 'instagram']} /></span>
-		  			<span className='f5 dim mh2 pointer'><FontAwesomeIcon className='fa-lg' icon={['fab', 'facebook-square']} /></span>
+		  			<a 
+		  				href='https://www.instagram.com/explore/locations/326901064568296/true-lock-and-security-services/' 
+		  				target='_blank'
+		  				className='f5 dim mh2 pointer'>
+		  					<FontAwesomeIcon className='fa-lg' icon={['fab', 'instagram']} />
+		  			</a>
+		  			<a 
+		  			href='https://www.facebook.com/pages/True-Lock-And-Security-Services/326901064568296?epa=SEARCH_BOX' 
+		  			target='_blank' 
+		  			className='f5 dim mh2 pointer'>
+		  				<FontAwesomeIcon className='fa-lg' icon={['fab', 'facebook-square']} />
+		  			</a>
 		  		</p>
 			</div>
 		</footer>
