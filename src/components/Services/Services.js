@@ -20,7 +20,7 @@ const Services = ()=>{
 					{
 						services.map((service,i)=>{
 							return(
-								<Servicecard {...service} />
+								<Servicecard key={service.id} {...service} />
 							)
 						})
 					}

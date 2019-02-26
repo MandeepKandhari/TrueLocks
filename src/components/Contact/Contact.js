@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+require('dotenv').config();
 
+const url = process.env.REACT_APP_BACKEND_URL
 
 class About extends Component{
 	constructor(){
@@ -19,7 +21,7 @@ class About extends Component{
 
 onButtonSubmit=(message)=>{
 	console.log('message',message)
-	fetch('https://truelocks-232806.appspot.com/message',{
+	fetch(`${url}/message`,{
 		method:'post',
 		headers:{'Content-Type':'application/json'},
 		body:JSON.stringify({
@@ -40,6 +42,7 @@ onInputMessageChange=(event)=>this.setState(Object.assign(this.state.input,{mess
 	render(){
 		return(
 		<section>
+			{console.log('url', url)}
 			<div className='w-100 mb4-l mb3-m mb2 flex flex-column justify-center items-center subheader'>
 				<h1 className='tc fw6 f3-l f4 pv4-l pv3-m pv2'>CONTACT US</h1>
 			</div>
@@ -65,7 +68,7 @@ onInputMessageChange=(event)=>this.setState(Object.assign(this.state.input,{mess
 							</div>
 						</section>	
 						<section className='w-90 ba bw1 pv5 mb4 google-maps'>
-							<iframe title='house location' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.697726785306!2d-79.76678558486036!3d43.737605879118526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b164722bf58d5%3A0x37cea824881738f7!2s72+Dolphin+Song+Crescent%2C+Brampton%2C+ON+L6R+2A4!5e0!3m2!1sen!2sca!4v1548818774201" width="725" height="300" frameborder="0" style={{border:0}} allowfullscreen></iframe>
+							<iframe title='house location' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.697726785306!2d-79.76678558486036!3d43.737605879118526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b164722bf58d5%3A0x37cea824881738f7!2s72+Dolphin+Song+Crescent%2C+Brampton%2C+ON+L6R+2A4!5e0!3m2!1sen!2sca!4v1548818774201" width="725" height="300" frameBorder="0" style={{border:0}} allowFullScreen></iframe>
 						</section>
 					</div>
 				</Fade>
